@@ -15,7 +15,7 @@ const Team = () => {
           <TeamMember 
             name="Dre Kathy Bouchard"
             role="Dentiste généraliste"
-            image="assets/equipe.jpg" 
+            image="/assets/equipe.jpg" 
             bio={`
               <p class="mb-4">Dre Kathy Bouchard est une dentiste généraliste passionnée par son métier. Soucieuse d'offrir les meilleurs soins à ses patients, elle se perfectionne continuellement.</p>
               <p class="mb-4">Elle a notamment complété une formation supplémentaire approfondie en <strong>orthodontie</strong> à l'Institut Dentaire International sur une période de 3 ans.</p>
