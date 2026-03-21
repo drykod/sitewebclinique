@@ -15,7 +15,7 @@ const Layout = () => {
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2" onClick={closeMenu}>
-            <img src="/assets/logo.png" alt="Clinique Dentaire Bouche Art" className="h-12 md:h-16" />
+            <img src="assets/logo.png" alt="Clinique Dentaire Bouche Art" className="h-12 md:h-16" />
           </Link>
 
           {/* Desktop Navigation */}
