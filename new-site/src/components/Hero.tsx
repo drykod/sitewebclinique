@@ -22,7 +22,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link 
               to="/contact" 
-              className="w-full sm:w-auto bg-gradient-to-r from-cyan-500 to-green-500 hover:from-cyan-600 hover:to-green-600 text-white font-bold py-4 px-10 rounded-full shadow-xl transform transition hover:scale-105"
+              className="w-full sm:w-auto bg-gradient-to-r from-brand-800 to-brand-600 hover:from-brand-900 hover:to-brand-700 text-white font-bold py-4 px-10 rounded-full shadow-xl transform transition hover:scale-105"
             >
               Prendre rendez-vous
             </Link>

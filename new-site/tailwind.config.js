@@ -7,29 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        cyan: {
-          50: '#e0faff',
-          100: '#b8f3ff',
-          200: '#80eaff',
-          300: '#3ddcff',
-          400: '#1fddff', // Logo primary
-          500: '#00bfff',
-          600: '#0090cc',
-          700: '#0070a0',
-          800: '#00587d',
-          900: '#004a69',
-        },
-        green: {
-          50: '#f0fdf4',
-          100: '#dcfce7',
-          200: '#bbf7d0',
-          300: '#86efac',
-          400: '#8dd53f', // Logo secondary
-          500: '#65a30d',
-          600: '#4d7c0f',
-          700: '#3f6212',
-          800: '#365314',
-          900: '#1a2e05',
+        brand: {
+          50: '#fef2f2',
+          100: '#fee2e2',
+          200: '#fecaca',
+          300: '#fca5a5',
+          400: '#f87171',
+          500: '#ef4444', // Main brand red
+          600: '#dc2626', // Hover red
+          700: '#b91c1c',
+          800: '#991b1b',
+          900: '#7f1d1d',
         }
       },
       fontFamily: {

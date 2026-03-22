@@ -32,7 +32,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({ name, role, bio, image }) => {
       <div className="p-8 md:w-2/3 flex flex-col justify-center">
         <div className="hidden md:block mb-4">
             <h3 className="text-2xl font-bold text-gray-800">{name}</h3>
-            <p className="text-cyan-600 font-medium">{role}</p>
+            <p className="text-brand-600 font-medium">{role}</p>
         </div>
         
         <div className="prose text-gray-600 leading-relaxed text-justify" dangerouslySetInnerHTML={{ __html: bio }} />

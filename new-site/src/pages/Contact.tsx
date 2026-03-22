@@ -13,7 +13,7 @@ const Contact = () => {
             
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="bg-cyan-100 p-3 rounded-full text-cyan-600">
+                <div className="bg-brand-100 p-3 rounded-full text-brand-600">
                   <MapPin size={24} />
                 </div>
                 <div>
@@ -27,25 +27,25 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="bg-green-100 p-3 rounded-full text-green-600">
+                <div className="bg-brand-100 p-3 rounded-full text-brand-700">
                   <Phone size={24} />
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-800">Téléphone</h3>
                   <p className="text-gray-600">
-                    <a href="tel:+14188278337" className="hover:text-green-600 transition-colors">(418) 827-8337</a>
+                    <a href="tel:+14188278337" className="hover:text-brand-700 transition-colors">(418) 827-8337</a>
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="bg-blue-100 p-3 rounded-full text-blue-600">
+                <div className="bg-brand-100 p-3 rounded-full text-brand-800">
                   <Mail size={24} />
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-800">Courriel</h3>
                   <p className="text-gray-600">
-                    <a href="mailto:info@cliniquedentaireboucheart.com" className="hover:text-blue-600 transition-colors break-all">info@cliniquedentaireboucheart.com</a>
+                    <a href="mailto:info@cliniquedentaireboucheart.com" className="hover:text-brand-800 transition-colors break-all">info@cliniquedentaireboucheart.com</a>
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const Contact = () => {
                   href="https://www.facebook.com/centredentairedrapeaubouchard/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-medium transition-colors"
+                  className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-800 font-medium transition-colors"
                 >
                   <Facebook size={24} />
                   Suivez-nous sur Facebook
@@ -100,17 +100,17 @@ const Contact = () => {
                 <form className="space-y-4" action="mailto:info@cliniquedentaireboucheart.com" method="post" encType="text/plain">
                     <div>
                         <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Nom complet</label>
-                        <input type="text" id="name" name="name" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent outline-none transition" required />
+                        <input type="text" id="name" name="name" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent outline-none transition" required />
                     </div>
                     <div>
                         <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Courriel</label>
-                        <input type="email" id="email" name="email" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent outline-none transition" required />
+                        <input type="email" id="email" name="email" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent outline-none transition" required />
                     </div>
                     <div>
                         <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                        <textarea id="message" name="message" rows={4} className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-transparent outline-none transition" required></textarea>
+                        <textarea id="message" name="message" rows={4} className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-transparent outline-none transition" required></textarea>
                     </div>
-                    <button type="submit" className="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-md">
+                    <button type="submit" className="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-md">
                         Envoyer
                     </button>
                 </form>

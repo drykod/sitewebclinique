@@ -20,11 +20,11 @@ const Layout = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            <Link to="/" className="text-gray-600 hover:text-cyan-500 font-medium transition-colors">Accueil</Link>
-            <Link to="/services" className="text-gray-600 hover:text-cyan-500 font-medium transition-colors">Nos services</Link>
-            <Link to="/equipe" className="text-gray-600 hover:text-cyan-500 font-medium transition-colors">Notre équipe</Link>
-            <Link to="/contact" className="text-gray-600 hover:text-cyan-500 font-medium transition-colors">Nous joindre</Link>
-            <a href="tel:+14188278337" className="bg-gradient-to-r from-cyan-400 to-green-400 text-white px-5 py-2 rounded-full font-bold shadow-md hover:shadow-lg transition-all flex items-center gap-2">
+            <Link to="/" className="text-gray-600 hover:text-brand-600 font-medium transition-colors">Accueil</Link>
+            <Link to="/services" className="text-gray-600 hover:text-brand-600 font-medium transition-colors">Nos services</Link>
+            <Link to="/equipe" className="text-gray-600 hover:text-brand-600 font-medium transition-colors">Notre équipe</Link>
+            <Link to="/contact" className="text-gray-600 hover:text-brand-600 font-medium transition-colors">Nous joindre</Link>
+            <a href="tel:+14188278337" className="bg-gradient-to-r from-brand-900 to-brand-700 text-white px-5 py-2 rounded-full font-bold shadow-md hover:shadow-lg transition-all flex items-center gap-2">
               <Phone size={18} />
               (418) 827-8337
             </a>
@@ -44,7 +44,7 @@ const Layout = () => {
               <Link to="/services" className="text-lg font-medium text-gray-700" onClick={closeMenu}>Nos services</Link>
               <Link to="/equipe" className="text-lg font-medium text-gray-700" onClick={closeMenu}>Notre équipe</Link>
               <Link to="/contact" className="text-lg font-medium text-gray-700" onClick={closeMenu}>Nous joindre</Link>
-              <a href="tel:+14188278337" className="text-cyan-600 font-bold flex items-center gap-2">
+              <a href="tel:+14188278337" className="text-brand-700 font-bold flex items-center gap-2">
                 <Phone size={18} />
                 Appeler (418) 827-8337
               </a>
@@ -63,7 +63,7 @@ const Layout = () => {
         <div className="container mx-auto px-4 grid md:grid-cols-3 gap-8">
           {/* Column 1: Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-cyan-400">Clinique Dentaire Bouche Art</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-400">Clinique Dentaire Bouche Art</h3>
             <p className="text-gray-400 mb-4">Professionnelles · Expérimentées · Passionnées</p>
             <div className="flex items-start gap-3 mb-2 text-gray-300">
               <MapPin className="shrink-0 mt-1" size={18} />
@@ -71,13 +71,13 @@ const Layout = () => {
             </div>
             <div className="flex items-center gap-3 mb-2 text-gray-300">
               <Phone size={18} />
-              <a href="tel:+14188278337" className="hover:text-cyan-400">(418) 827-8337</a>
+              <a href="tel:+14188278337" className="hover:text-brand-400">(418) 827-8337</a>
             </div>
           </div>
 
           {/* Column 2: Hours */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-cyan-400">Heures d'ouverture</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-400">Heures d'ouverture</h3>
             <ul className="text-gray-300 space-y-2">
               <li className="flex justify-between"><span>Lun - Mer:</span> <span>8h30 - 20h00</span></li>
               <li className="flex justify-between"><span>Jeu:</span> <span>8h30 - 16h00</span></li>
@@ -88,7 +88,7 @@ const Layout = () => {
 
           {/* Column 3: Quick Links */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-cyan-400">Liens rapides</h3>
+            <h3 className="text-xl font-bold mb-4 text-brand-400">Liens rapides</h3>
             <ul className="space-y-2">
               <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">Nos services</Link></li>
               <li><Link to="/equipe" className="text-gray-300 hover:text-white transition-colors">Notre équipe</Link></li>
