@@ -17,7 +17,7 @@ const Hero = () => {
             Professionnelles · Expérimentées · Passionnées
           </h1>
           <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto text-gray-600 leading-relaxed">
-            Votre sourire est notre priorité. Bienvenue à la Clinique Dentaire Bouche Art.
+            Notre mission à la clinique est d’offrir une expérience positive et agréable à tous nos patients, et ce à chaque visite, en plaçant votre santé dentaire au centre de notre engagement.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link 
