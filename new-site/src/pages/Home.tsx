@@ -12,7 +12,7 @@ const Home = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Bienvenue aux nouveaux patients</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Nos priorités : votre santé dentaire et votre satisfaction. Nous offrons des soins dentaires adaptés à vos besoins dans une ambiance chaleureuse et professionnelle.
+            Nous offrons des soins dentaires adaptés à vos besoins dans une ambiance chaleureuse et professionnelle.
           </p>
         </div>
       </section>
