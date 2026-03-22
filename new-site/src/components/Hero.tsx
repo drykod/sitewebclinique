@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Hero Image Section */}
       <div 
         className="w-full h-[400px] md:h-[500px] bg-cover bg-center" 
-        style={{ backgroundImage: 'url("assets/BoucheArt-0805.jpg")' }}
+        style={{ backgroundImage: 'url("assets/BoucheArt-0913.jpg")' }}
       >
       </div>
 
