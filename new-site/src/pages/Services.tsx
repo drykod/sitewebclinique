@@ -56,7 +56,7 @@ const servicesData = [
       <ul class="list-disc pl-5 space-y-2">
         <li><strong>Nettoyage :</strong> Détartrage et polissage par l'hygiéniste pour enlever la plaque et le tartre.</li>
         <li><strong>Examen :</strong> Vérification complète par le dentiste (caries, obturations, maladies des gencives, etc.).</li>
-        <li><strong>Radiographies numériques :</strong> Pour voir entre les dents et sous la gencive, avec moins de radiation.</li>
+        <li><strong>Radiographies numériques :</strong> Afin de voir entre les dents et sous la gencive en utilisant moins de radiation que les anciennes radiographies analogiques.</li>
       </ul>
     `
   },
