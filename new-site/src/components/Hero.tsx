@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const images = [
+    "assets/BoucheArt-0913.jpg",
     "assets/CliniqueDentaireBoucheArt-5347.jpg",
     "assets/BoucheArt-0939.jpg",
     "assets/BoucheArt-0937.jpg"
