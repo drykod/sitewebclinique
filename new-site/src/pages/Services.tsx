@@ -28,7 +28,7 @@ const servicesData = [
     title: "Orthodontie",
     icon: <Smile size={24} />,
     description: `
-      <p class="mb-4">Dre Bouchard, dentiste généraliste, a complété une formation supplémentaire en orthodontie à l'Institut Dentaire International sur une période de 3 ans.</p>
+      <p class="mb-4">Dre Kathy Bouchard, dentiste généraliste, a suivi une formation complète en orthodontie à l'Institut Dentaire International de 2008 à 2011. Depuis, elle participe régulièrement à de la formation continue dans ce domaine.</p>
       <ul class="list-disc pl-5 space-y-2">
         <li><strong>Orthodontie d'interception :</strong> Pour les enfants en bas âge (dentition mixte) pour corriger certaines malocclusions rapidement.</li>
         <li><strong>Orthodontie fixe :</strong> Alignement des dents à l'aide de broches (souvent à l'adolescence).</li>
