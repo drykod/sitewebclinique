@@ -50,7 +50,7 @@ const Team = () => {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 p-8 text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Nos secrétaires</h2>
             <img 
-              src="assets/BoucheArt-9986.jpg" 
+              src="assets/CliniqueDentaireBoucheArt-5276.jpg" 
               alt="Nos secrétaires" 
               className="w-full rounded-lg shadow-md mb-6 max-h-[500px] object-cover"
             />
