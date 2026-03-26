@@ -127,7 +127,7 @@ const servicesData = [
     icon: <Syringe size={24} />,
     description: `
       <ul class="list-disc pl-5 space-y-2">
-        <li><strong>Extractions :</strong> Dents très cariées, fracturées ou dents de sagesse incluses.</li>
+        <li><strong>Extractions :</strong> Proposé lorsque la ou les dents ne sont plus restaurables, comme pour les dents très cariées, fracturées ou avec une atteinte parodontale sévère. Nous offrons également le service des extractions de certaines dents de sagesse incluses effectué par notre dentiste invité, Dr. Hugues Fontaine.</li>
         <li><strong>Urgence :</strong> Service de dépannage le jour même pour soulager la douleur, réparer une dent cassée ou traiter une infection.</li>
       </ul>
     `
