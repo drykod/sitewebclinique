@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import ServiceCard from '../components/ServiceCard';
 import { 
   Stethoscope, 
@@ -93,7 +94,7 @@ const servicesData = [
   },
   {
     title: "Prothèses complètes et partielles",
-    icon: <Smile size={24} />, // Reusing Smile icon or finding a better one
+    icon: <Smile size={24} />,
     description: `
       <ul class="list-disc pl-5 space-y-2">
         <li><strong>Prothèses complètes (dentiers) :</strong> Remplacement de toutes les dents pour restaurer la fonction et l'esthétique. Confection en environ 5 rendez-vous.</li>
@@ -135,6 +136,12 @@ const servicesData = [
 ];
 
 const Services = () => {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const handleToggle = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
   return (
     <div className="py-16 bg-gray-50 animate-fade-in">
       <div className="container mx-auto px-4">
@@ -152,6 +159,8 @@ const Services = () => {
               title={service.title}
               description={service.description}
               icon={service.icon}
+              isOpen={openIndex === index}
+              onToggle={() => handleToggle(index)}
             />
           ))}
         </div>

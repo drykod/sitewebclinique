@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
 interface ServiceCardProps {
   title: string;
   description: string;
   icon?: React.ReactNode;
+  isOpen: boolean;
+  onToggle: () => void;
 }
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
+const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon, isOpen, onToggle }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-100">
       <button 
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={onToggle}
         className="w-full flex items-center justify-between p-6 text-left focus:outline-none bg-gradient-to-r from-gray-50 to-white hover:from-brand-50 hover:to-white transition-colors"
       >
         <div className="flex items-center gap-4">
