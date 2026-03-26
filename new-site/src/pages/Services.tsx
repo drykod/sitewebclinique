@@ -52,7 +52,7 @@ const servicesData = [
     title: "Examens dentaires et nettoyages périodiques",
     icon: <Microscope size={24} />,
     description: `
-      <p class="mb-4">La fréquence recommandée est généralement de deux examens par année. Il ne faut pas attendre d'avoir mal aux dents avant de consulter!</p>
+      <p class="mb-4">La fréquence recommandée des nettoyages dentaires varient d'un patient à l'autre selon ses besoins. Il ne faut pas attendre d'avoir mal aux dents avant de consulter!</p>
       <ul class="list-disc pl-5 space-y-2">
         <li><strong>Nettoyage :</strong> Détartrage et polissage par l'hygiéniste pour enlever la plaque et le tartre.</li>
         <li><strong>Examen :</strong> Vérification complète par le dentiste (caries, obturations, maladies des gencives, etc.).</li>
