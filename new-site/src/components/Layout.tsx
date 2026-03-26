@@ -67,7 +67,7 @@ const Layout = () => {
             <p className="text-gray-400 mb-4">Professionnelles · Expérimentées · Passionnées</p>
             <div className="flex items-start gap-3 mb-2 text-gray-300">
               <MapPin className="shrink-0 mt-1" size={18} />
-              <p>10516 Boulevard Sainte-Anne, bureau 200<br />Ste-Anne-de-Beaupré, Qc G0A 3C0</p>
+              <p>10516 Boulevard Sainte-Anne, local 3000<br />Ste-Anne-de-Beaupré, Qc G0A 3C0</p>
             </div>
             <div className="flex items-center gap-3 mb-2 text-gray-300">
               <Phone size={18} />
@@ -79,9 +79,10 @@ const Layout = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-brand-400">Heures d'ouverture</h3>
             <ul className="text-gray-300 space-y-2">
-              <li className="flex justify-between"><span>Lun - Mer:</span> <span>8h30 - 20h00</span></li>
-              <li className="flex justify-between"><span>Jeu:</span> <span>8h30 - 16h00</span></li>
-              <li className="flex justify-between"><span>Ven:</span> <span>8h30 - 15h30</span></li>
+              <li className="flex justify-between"><span>Lun - Mar:</span> <span>8h00 - 19h00</span></li>
+              <li className="flex justify-between"><span>Mer:</span> <span>8h00 - 17h00</span></li>
+              <li className="flex justify-between"><span>Jeu:</span> <span>8h00 - 16h00</span></li>
+              <li className="flex justify-between"><span>Ven:</span> <span>8h00 - 15h30</span></li>
               <li className="flex justify-between"><span>Sam - Dim:</span> <span>Fermé</span></li>
             </ul>
           </div>

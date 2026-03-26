@@ -1,4 +1,3 @@
-import TeamMember from '../components/TeamMember';
 
 const Team = () => {
   return (
@@ -12,34 +11,53 @@ const Team = () => {
         </div>
 
         <div className="flex flex-col gap-12 max-w-4xl mx-auto">
-          <TeamMember 
-            name="Dre Kathy Bouchard"
-            role="Dentiste généraliste"
-            image="assets/equipe.jpg" 
-            bio={`
-              <p class="mb-4">Dre Kathy Bouchard est une dentiste généraliste passionnée par son métier. Soucieuse d'offrir les meilleurs soins à ses patients, elle se perfectionne continuellement.</p>
-              <p class="mb-4">Elle a notamment complété une formation supplémentaire approfondie en <strong>orthodontie</strong> à l'Institut Dentaire International sur une période de 3 ans.</p>
-              <p>Son approche humaine et douce saura vous mettre en confiance dès la première visite.</p>
-            `}
-          />
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 p-8 text-center">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6">Les dentistes</h2>
+            <img 
+              src="assets/BoucheArt-0805.jpg" 
+              alt="Les dentistes de la clinique" 
+              className="w-full rounded-lg shadow-md mb-6 max-h-[500px] object-cover"
+            />
+            <p className="text-xl text-brand-700 font-bold">
+              Dre Rosalie Dufour, Dre Kathy Bouchard et Dre Gaële Paquet
+            </p>
+          </div>
 
-          <TeamMember 
-            name="Dr Hugues Fontaine"
-            role="Dentiste invité"
-            bio={`
-              <p class="mb-4">Dr Hugues Fontaine est un dentiste invité qui se déplace périodiquement à la clinique pour effectuer des chirurgies plus complexes.</p>
-              <p>Il prend notamment en charge les <strong>extractions de dents de sagesse</strong> et les cas nécessitant une expertise chirurgicale particulière, vous permettant de recevoir ces soins directement à notre clinique.</p>
-            `}
-          />
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 p-8 text-center">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6">Nos assistantes dentaires</h2>
+            <img 
+              src="assets/BoucheArt-0410.jpg" 
+              alt="Nos assistantes dentaires" 
+              className="w-full rounded-lg shadow-md mb-6 max-h-[500px] object-cover"
+            />
+            <p className="text-xl text-brand-700 font-bold">
+              Sabrina Néron, Mélissa Perron et Nathalie Paquet
+            </p>
+          </div>
 
-          <TeamMember 
-            name="Notre équipe d'hygiénistes"
-            role="Hygiène et prévention"
-            bio={`
-              <p class="mb-4">Nos hygiénistes dentaires sont le cœur de notre volet prévention. Douces et minutieuses, elles sont responsables de vos nettoyages, du détartrage et du polissage de vos dents.</p>
-              <p>Elles prendront le temps de vous donner des conseils personnalisés pour améliorer votre hygiène buccale à la maison et préserver la santé de vos dents et de vos gencives à long terme.</p>
-            `}
-          />
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 p-8 text-center">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6">Notre équipe d'hygiénistes</h2>
+            <img 
+              src="assets/BoucheArt-0202.jpg" 
+              alt="Notre équipe d'hygiénistes" 
+              className="w-full rounded-lg shadow-md mb-6 max-h-[500px] object-cover"
+            />
+            <p className="text-xl text-brand-700 font-bold">
+              Fanny Duclos, Simon Gagnon et Valérie Caron-Labranche
+            </p>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 p-8 text-center">
+            <h2 className="text-3xl font-bold text-gray-800 mb-6">Nos secrétaires</h2>
+            <img 
+              src="assets/BoucheArt-9986.jpg" 
+              alt="Nos secrétaires" 
+              className="w-full rounded-lg shadow-md mb-6 max-h-[500px] object-cover"
+            />
+            <p className="text-xl text-brand-700 font-bold">
+              France St-Hilaire, Mélanie Ferland et Karolane Dupuis
+            </p>
+          </div>
         </div>
       </div>
     </div>

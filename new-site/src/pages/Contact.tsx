@@ -19,7 +19,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-bold text-gray-800">Adresse</h3>
                   <p className="text-gray-600">
-                    10516 Boulevard Sainte-Anne, bureau 200<br />
+                    10516 Boulevard Sainte-Anne, local 3000<br />
                     Ste-Anne-de-Beaupré, Qc G0A 3C0<br />
                     <span className="text-sm text-gray-500 mt-1 block">Le Centre Place Ste-Anne, 2e étage (ascenseur disponible)</span>
                   </p>
@@ -57,9 +57,10 @@ const Contact = () => {
                 <div>
                   <h3 className="font-bold text-gray-800">Heures d'ouverture</h3>
                   <ul className="text-gray-600 space-y-1">
-                    <li className="flex justify-between w-48"><span className="font-medium">Lun - Mer:</span> 8h30 - 20h00</li>
-                    <li className="flex justify-between w-48"><span className="font-medium">Jeu:</span> 8h30 - 16h00</li>
-                    <li className="flex justify-between w-48"><span className="font-medium">Ven:</span> 8h30 - 15h30</li>
+                    <li className="flex justify-between w-48"><span className="font-medium">Lun - Mar:</span> 8h00 - 19h00</li>
+                    <li className="flex justify-between w-48"><span className="font-medium">Mer:</span> 8h00 - 17h00</li>
+                    <li className="flex justify-between w-48"><span className="font-medium">Jeu:</span> 8h00 - 16h00</li>
+                    <li className="flex justify-between w-48"><span className="font-medium">Ven:</span> 8h00 - 15h30</li>
                     <li className="flex justify-between w-48"><span className="font-medium">Sam - Dim:</span> Fermé</li>
                   </ul>
                 </div>
