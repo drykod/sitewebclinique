@@ -38,7 +38,7 @@ const Team = () => {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 p-8 text-center">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Notre équipe d'hygiénistes</h2>
             <img 
-              src="assets/CliniqueDentaireBoucheArt-5291.jpg" 
+              src="assets/Equipe-Hygienistes-V2.jpg" 
               alt="Notre équipe d'hygiénistes" 
               className="w-full rounded-lg shadow-md mb-6 max-h-[500px] object-cover"
             />
