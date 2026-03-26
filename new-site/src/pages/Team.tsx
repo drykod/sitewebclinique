@@ -43,7 +43,7 @@ const Team = () => {
               className="w-full rounded-lg shadow-md mb-6 max-h-[500px] object-cover"
             />
             <p className="text-xl text-brand-700 font-bold">
-              Fanny Duclos, Simon Gagnon et Valérie Caron-Labranche
+              Fanny Duclos, Pascale Damphousse, Valérie Caron-Labranche et Simon Gagnon
             </p>
           </div>
 
