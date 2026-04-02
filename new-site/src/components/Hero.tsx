@@ -5,7 +5,7 @@ const Hero = () => {
   const images = [
     "assets/Reception.jpg",
     "assets/Scan.jpg",
-    "assets/Chaise-dentaire.jpg",
+    "assets/Chaise-dentaire-v2.jpg",
     "assets/Salle-d-attente.jpg"
   ];
 
