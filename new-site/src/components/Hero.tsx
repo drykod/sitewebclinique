@@ -6,7 +6,7 @@ const Hero = () => {
     "assets/Reception.jpg",
     "assets/Scan.jpg",
     "assets/Chaise-dentaire.jpg",
-    "assets/BoucheArt-0937.jpg"
+    "assets/Salle-d-attente.jpg"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
