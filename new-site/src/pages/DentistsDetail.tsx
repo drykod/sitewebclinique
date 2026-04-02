@@ -26,17 +26,17 @@ const DentistsDetail = () => {
                   className="w-full h-full rounded-lg shadow-sm object-cover"
                 />
               </div>
-              <div className="md:w-1/2 w-full flex flex-col justify-between py-4">
+              <div className="md:w-1/2 w-full flex flex-col justify-center py-4">
                 <div>
-                  <h2 className="text-3xl font-bold text-brand-700 mb-8">Dre Kathy Bouchard</h2>
-                  <p className="text-gray-600 leading-loose text-lg text-justify">
-                    Graduée en 2008 de la faculté de médecine dentaire de l’Université de Montréal, je me suis établie dans la belle région de Québec où je pratique ma profession avec passion et dévouement. En 2017, j’ai fait l’acquisition d’une partie de la clinique afin de devenir co-propriétaire avec Dre Marie-Hélène Drapeau, fondatrice de la clinique en 1991. Puis, en 2024, je suis devenue l’unique propriétaire de la clinique à la suite de quoi j’ai entamé des travaux d’envergure afin d’agrandir et moderniser la clinique dans le but d’offrir davantage de soins à notre merveilleuse patientèle.
-                  </p>
-                </div>
-                <div className="mt-12">
-                  <p className="text-gray-600 leading-loose text-lg text-justify italic">
-                    Sur un plan plus personnel, je suis l’heureuse mère de 3 adolescents qui me comblent de bonheur. Mes passe-temps sont la lecture, le cinéma et … la danse country-pop! Il faut bien se détendre un peu au travers de tout cela!
-                  </p>
+                  <h2 className="text-3xl font-bold text-brand-700 mb-6">Dre Kathy Bouchard</h2>
+                  <div className="text-gray-600 leading-relaxed text-lg text-justify space-y-4">
+                    <p>
+                      Graduée en 2008 de la faculté de médecine dentaire de l’Université de Montréal, je me suis établie dans la belle région de Québec où je pratique ma profession avec passion et dévouement. En 2017, j’ai fait l’acquisition d’une partie de la clinique afin de devenir co-propriétaire avec Dre Marie-Hélène Drapeau, fondatrice de la clinique en 1991. Puis, en 2024, je suis devenue l’unique propriétaire de la clinique à la suite de quoi j’ai entamé des travaux d’envergure afin d’agrandir et moderniser la clinique dans le but d’offrir davantage de soins à notre merveilleuse patientèle.
+                    </p>
+                    <p className="italic">
+                      Sur un plan plus personnel, je suis l’heureuse mère de 3 adolescents qui me comblent de bonheur. Mes passe-temps sont la lecture, le cinéma et … la danse country-pop! Il faut bien se détendre un peu au travers de tout cela!
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
