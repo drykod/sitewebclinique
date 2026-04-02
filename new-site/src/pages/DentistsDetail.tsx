@@ -40,9 +40,9 @@ const DentistsDetail = () => {
             </div>
           </div>
 
-          {/* Section Gaële et Rosalie */}
+          {/* Section Rosalie */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 p-6 md:p-8">
-            <h2 className="text-2xl font-bold text-brand-700 mb-6 text-center">Dre Gaële Paquet et Dre Rosalie Dufour</h2>
+            <h2 className="text-2xl font-bold text-brand-700 mb-6 text-center">Dre Rosalie Dufour</h2>
             <div className="max-w-3xl mx-auto">
               <img 
                 src="assets/BoucheArt-0556.jpg" 
