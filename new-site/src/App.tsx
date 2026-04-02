@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
+import DentistsDetail from './pages/DentistsDetail';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="services" element={<Services />} />
           <Route path="equipe" element={<Team />} />
+          <Route path="dentistes-details" element={<DentistsDetail />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

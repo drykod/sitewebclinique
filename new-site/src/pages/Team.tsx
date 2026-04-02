@@ -1,4 +1,6 @@
 
+import { Link } from 'react-router-dom';
+
 const Team = () => {
   return (
     <div className="py-16 bg-white animate-fade-in">
@@ -21,6 +23,14 @@ const Team = () => {
             <p className="text-xl text-brand-700 font-bold">
               Dre Rosalie Dufour, Dre Kathy Bouchard et Dre Gaële Paquet
             </p>
+            <div className="mt-4">
+              <Link 
+                to="/dentistes-details" 
+                className="text-brand-600 hover:text-brand-800 font-medium underline underline-offset-4"
+              >
+                Apprenez-en plus sur vos dentistes
+              </Link>
+            </div>
           </div>
 
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 p-8 text-center">
