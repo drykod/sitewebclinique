@@ -63,7 +63,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img 
-                src="assets/CliniqueDentaireBoucheArt-5337.jpg" 
+                src="assets/Photo-equipe-v2.jpg" 
                 alt="Notre équipe" 
                 className="rounded-lg shadow-xl hover:scale-105 transition-transform duration-500"
               />
