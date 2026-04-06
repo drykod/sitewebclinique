@@ -28,7 +28,7 @@ const Team = () => {
                 to="/dentistes-details" 
                 className="text-brand-600 hover:text-brand-800 font-medium underline underline-offset-4"
               >
-                Apprenez-en plus sur vos dentistes
+                Apprenez-en plus sur nos dentistes
               </Link>
             </div>
           </div>
