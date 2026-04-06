@@ -44,13 +44,22 @@ const DentistsDetail = () => {
 
           {/* Section Rosalie */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 p-6 md:p-8">
-            <h2 className="text-3xl font-bold text-brand-700 mb-8 text-center">Dre Rosalie Dufour</h2>
-            <div className="max-w-3xl mx-auto mb-12">
-              <img 
-                src="assets/BoucheArt-0556.jpg" 
-                alt="Dre Rosalie Dufour" 
-                className="w-full rounded-lg shadow-sm"
-              />
+            <div className="flex flex-col md:flex-row gap-12 items-center md:items-stretch">
+              <div className="md:w-1/2 w-full">
+                <img 
+                  src="assets/BoucheArt-0556.jpg" 
+                  alt="Dre Rosalie Dufour" 
+                  className="w-full h-full rounded-lg shadow-sm object-cover"
+                />
+              </div>
+              <div className="md:w-1/2 w-full flex flex-col justify-center py-4">
+                <div>
+                  <h2 className="text-3xl font-bold text-brand-700 mb-8">Dre Rosalie Dufour</h2>
+                  <p className="text-gray-600 leading-relaxed text-lg">
+                    Texte personnel
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
