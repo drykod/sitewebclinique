@@ -27,8 +27,16 @@ const DentistsDetail = () => {
             </div>
             <div className="p-6 flex-grow">
               <h2 className="text-2xl font-bold text-brand-700 mb-4">Dre Rosalie Dufour</h2>
-              <div className="text-gray-600 leading-relaxed text-justify">
-                <p>Texte personnel</p>
+              <div className="text-gray-600 leading-relaxed text-justify space-y-4 text-sm">
+                <p>
+                  Graduée en 2025 de la Faculté de médecine dentaire de l'Université de Montréal, je suis de retour dans ma ville natale, Québec, où j’ai choisi de pratiquer à la Clinique dentaire Bouche Art.
+                </p>
+                <p>
+                  Je base mon approche sur l'écoute et le respect, et je continue à suivre des formations pour offrir des soins toujours adaptés et de qualité. Pendant mes études, j'ai participé à une mission communautaire au Guatemala, où j'ai pu offrir des soins dentaires. Cette expérience, en lien avec mon désir de voyager et mon ouverture sur le monde, m'a beaucoup appris, autant sur le plan clinique que sur la manière d'être à l'écoute et de m'adapter aux besoins des patients.
+                </p>
+                <p>
+                  En dehors de la clinique, je profite de mon temps libre pour pratiquer la natation, le yoga et la randonnée, des activités qui m'aident à garder un bon équilibre au quotidien.
+                </p>
               </div>
             </div>
           </div>
