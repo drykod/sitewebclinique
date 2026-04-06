@@ -22,7 +22,7 @@ const DentistsDetail = () => {
               <img 
                 src="assets/BoucheArt-0556.jpg" 
                 alt="Dre Rosalie Dufour" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="p-6 flex-grow">
