@@ -47,7 +47,7 @@ const DentistsDetail = () => {
               <img 
                 src="assets/BoucheArt-0471.jpg" 
                 alt="Dre Kathy Bouchard" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="p-6 flex-grow">
@@ -69,7 +69,7 @@ const DentistsDetail = () => {
               <img 
                 src="assets/BoucheArt-0637.jpg" 
                 alt="Dre Gaële Paquet" 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="p-6 flex-grow">
