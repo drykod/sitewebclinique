@@ -47,7 +47,8 @@ const DentistsDetail = () => {
               <img 
                 src="assets/BoucheArt-0471.jpg" 
                 alt="Dre Kathy Bouchard" 
-                className="w-full h-full object-cover object-bottom"
+                className="w-full h-full object-cover"
+                style={{ objectPosition: 'center 80%' }}
               />
             </div>
             <div className="p-6 flex-grow">
