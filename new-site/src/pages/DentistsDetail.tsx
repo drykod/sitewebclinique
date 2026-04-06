@@ -22,7 +22,8 @@ const DentistsDetail = () => {
               <img 
                 src="assets/BoucheArt-0556.jpg" 
                 alt="Dre Rosalie Dufour" 
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover"
+                style={{ objectPosition: 'center 20%' }}
               />
             </div>
             <div className="p-6 flex-grow">
@@ -71,6 +72,7 @@ const DentistsDetail = () => {
                 src="assets/BoucheArt-0637.jpg" 
                 alt="Dre Gaële Paquet" 
                 className="w-full h-full object-cover"
+                style={{ objectPosition: 'center 20%' }}
               />
             </div>
             <div className="p-6 flex-grow">
