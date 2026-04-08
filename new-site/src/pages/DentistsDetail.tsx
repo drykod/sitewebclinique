@@ -20,7 +20,7 @@ const DentistsDetail = () => {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 flex flex-col h-full">
             <div className="aspect-[3/4] overflow-hidden">
               <img 
-                src="assets/BoucheArt-0556.jpg" 
+                src="assets/Dre-Rosalie-Dufour.jpg" 
                 alt="Dre Rosalie Dufour" 
                 className="w-full h-full object-cover"
                 style={{ objectPosition: 'center 20%' }}
