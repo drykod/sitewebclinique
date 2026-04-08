@@ -68,10 +68,9 @@ const DentistsDetail = () => {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 flex flex-col h-full">
             <div className="aspect-[3/4] overflow-hidden">
               <img 
-                src="assets/BoucheArt-0637.jpg" 
+                src="assets/Dre-Gaele-Paquet.jpg" 
                 alt="Dre Gaële Paquet" 
                 className="w-full h-full object-cover"
-                style={{ objectPosition: 'center 20%' }}
               />
             </div>
             <div className="p-6 flex-grow">
