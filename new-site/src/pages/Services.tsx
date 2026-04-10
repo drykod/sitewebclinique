@@ -87,7 +87,7 @@ const servicesData = [
     description: `
       <ul class="list-disc pl-5 space-y-2">
         <li><strong>Couronne :</strong> Recouvre entièrement une dent abîmée pour la protéger et lui redonner sa forme.</li>
-        <li><strong>Pont fixe :</strong> Remplace une ou plusieurs dents manquantes en s'appuyant sur les dents voisines.</li>
+        <li><strong>Pont fixe et pont papillon :</strong> Remplace une ou plusieurs dents manquantes en s'appuyant sur les dents voisines.</li>
         <li><strong>Restauration sur implant :</strong> Couronne ou prothèse fixée sur une racine artificielle (implant) pour remplacer une dent manquante sans toucher aux dents voisines.</li>
       </ul>
     `
