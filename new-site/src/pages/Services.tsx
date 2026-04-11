@@ -82,7 +82,7 @@ const servicesData = [
     `
   },
   {
-    title: "Couronnes, ponts et couronnes implanto-portées",
+    title: "Couronnes, ponts et restaurations sur implants",
     icon: <Gem size={24} />,
     description: `
       <ul class="list-disc pl-5 space-y-2">
